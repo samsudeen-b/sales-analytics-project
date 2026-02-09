@@ -1,20 +1,32 @@
 # Sales Analytics Project
-This project cleans and analyzes sales data using Python.
 
-# Tools Used
+This project analyzes raw sales data to uncover meaningful business insights
+using Python and data analysis libraries.
+
+# Project Overview
+- Cleaned and processed raw sales data
+- Analyzed monthly sales trends
+- Identified best-selling products
+- Visualized sales performance using bar charts
+
+# Tools & Technologies
 - Python
 - Pandas
+- Matplotlib
+- VS Code
 
-# Project Files
-- raw_sales.csv → original data
-- cleaned_sales.csv → cleaned data
-- sales_cleaning.py → cleaning script
+# Key Insights
+- Monthly sales trends help understand business growth
+- Best-selling products drive maximum revenue
+- Visual charts make insights easy to understand
 
-# What this project does
-- Reads sales data
-- Cleans missing values
-- Saves cleaned data
-
-# How to run
-pip install -r requirements.txt  
-python scripts/sales_cleaning.py
+# Project Structure
+sales_analytics_project/
+        │
+. data/
+  └── raw_sales.csv
+. scripts/
+   └── sales_cleaning.py
+. outputs/
+   └── monthly_sales.png
+. README.md
